@@ -1,0 +1,161 @@
+@CHARSET "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400,500,700,800,900,100italic,300italic,400italic,500italic,700italic,800italic,900italic|Exo+2:400,100,100italic,200italic,200,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,latin-ext,cyrillic);
+
+/*
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Exo 2', sans-serif;
+*/
+/* ALL */
+*{
+	font-family: 'Exo 2', sans-serif;
+	font-weight:normal;
+	font-size: 100%;
+	color: black;
+}
+
+.testframe{
+	border: 1px red dashed;
+}
+
+/* UPPER MENU (navigator) */
+
+#page-header {
+	height: 59px;
+	border-bottom: 1px solid #e1e1e1;
+	background: #f5f5f5;
+	position: relative;
+	z-index: 20;
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	margin-bottom: 10px;
+}
+
+#menu {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60px;
+	height: 60px;
+	font-size: 0;
+	text-indent: -9999px;
+}
+
+#menu span {
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: url(../img/icon-menu.png) no-repeat 50% 50%;
+	background-size: 36px;
+}
+
+#menu-nav {
+	float: right;
+	margin: 10px 0;
+	border-left: 1px solid #dbdbdb;
+	font-size: 12px;
+}
+
+#menu-nav  a{
+	display: block;
+	float: left;
+	height: 36px;
+	border-right: 1px solid #dbdbdb;
+	border-left: 1px solid #fff;
+	margin-top: 1px;
+	padding: 0 10px;
+	line-height: 36px;
+	font-weight: normal;
+	color: #555;
+	text-decoration: none;
+	position: relative;
+}
+
+#menu-nav  a:last-child{
+	border-right: none;
+	margin-right: 10px;
+}
+
+/* ERIKS UN LASMINA */
+
+#ErikUznesManiKalna {
+	display: none;
+	position: fixed;
+	left: 50%;
+	top: 0;
+	width: 100%;
+	max-width: 640px;
+	z-index: 10;
+}
+
+#side-menu .menu {
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: url(../img/icon-menu.png) no-repeat 50% 50% rgba(255,255,255,.95);
+	background-size: 36px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom-right-radius: 5px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,.25);
+	-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.25);
+	cursor: pointer;
+}
+
+#side-menu .NesaucManiParOnkuli {
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: url(../img/icon-up.png) no-repeat 50% 50% rgba(255,255,255,.95);
+	background-size: 36px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-bottom-left-radius: 5px;
+	box-shadow: -1px 1px 2px rgba(0,0,0,.25);
+	-webkit-box-shadow: -1px 1px 2px rgba(0,0,0,.25);
+	cursor: pointer;
+}
+
+/* EVENT LISTS */
+
+.one-event-small:first-child{
+	border-top: none;
+	border-bottom: 1px solid rgba(8,0,77, 0.3);
+}
+
+.one-event-small:last-child{
+	border-top: 1px solid rgba(255,255,255, 0.2);
+	border-bottom: none;
+}
+
+.one-event-small{
+	height: 50px;
+	border-bottom: 1px solid rgba(8,0,77, 0.3);
+	border-top: 1px solid rgba(255,255,255, 0.2);
+}
+
+/* FOOTER */
+
+#page-footer {
+	height: 36px;
+	border-top: 1px solid #e1e1e1;
+	background: #f5f5f5;
+	position: relative;
+	z-index: 20;
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	margin-top: 10px;
+}
+
+#page-footer  a{
+	display: block;
+	height: 12px;
+	margin-top: 10px;
+	padding: 0 10px;
+	line-height: 12px;
+	font-weight: normal;
+	color: #555;
+	text-decoration: none;
+	position: relative;
+	text-align: center;
+}

@@ -1,0 +1,85 @@
+@CHARSET "utf-8";
+
+body{
+	margin-top: 0;
+	padding-top: 0;
+	background: url('../img/test-wall.jpg') no-repeat fixed center; /*Just for check*/
+}
+
+#page{
+	width:100%;
+	max-width:640px;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	background:#1d2627
+}
+
+#left-menu {
+	float: left;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #1d2627;
+	display: none;
+}
+
+#left-menu-wrap {
+	width: 100%;
+	padding: 0 60px 0 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	transition: margin .5s linear;
+	-moz-transition: margin .5s linear;
+	-webkit-transition: margin .5s linear;
+	-o-transition: margin .5s linear;
+}
+
+#content-wrap {
+	float: left;
+	width: 100%;
+}
+
+#content-wrap , #content {
+	position: relative;
+	background: -webkit-linear-gradient(#C9DFF3, #87C5E8,#1692D1,#0073BB); /* For Safari */
+	background: -o-linear-gradient(#C9DFF3, #87C5E8,#1692D1,#0073BB); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#C9DFF3, #87C5E8,#1692D1,#0073BB); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#C9DFF3, #87C5E8,#1692D1,#0073BB); /* Standard syntax (must be last) */
+	box-shadow: -2px -3px 5px #000;
+	z-index: 100;
+}
+
+
+
+/* MONITOR 14'' */
+@media(max-width: 1366px) {
+
+}
+
+/*
+
+/* SMARTPHONE *//*
+@media screen and (max-width: 320px) {
+	
+}
+
+/* TABLET vertical*//*
+@media screen and (max-width: 768px) {
+	
+}
+
+/* TABLET horizontal *//*
+@media screen and (max-width: 1024px) {
+	
+}
+
+/* MONITOR *//*
+@media screen and (max-width: 1680px) {
+	
+}
+
+*/
