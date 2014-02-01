@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -23,15 +23,33 @@
 
 
 <header id="page-header" class="testframe">
-	<a href="#" id="menu" class="menu" onclick="menuSlider();"><span>menu</span></a>
+	<a href="#" id="menu" class="menu"><span>menu</span></a>
 	<div id="menu-nav">
-		<a href="#" id="search"><span>search</span></a>
-		<a href="#" id="filter"><span>filter</span></a>
-		<a href="#" id="myList"><span>myList</span></a>
-		<a href="#" id="favorite"><span>favorite</span></a>
-		<a href="#" id="addNew"><span>addNew</span></a>
+		<a href="#" id="home-icon"><span></span></a>
+		<a href="#" id="search-icon" onclick="searchUse();"><span id="search-icon-image" ></span></a>
+		<a href="#" id="filter-icon" onclick="filterUse();"><span id="filter-icon-image" ></span></a>
 	</div>
 </header>
+
+<div id="sub-page-header" class="testframe">
+	<div id="user-sub-menu-nav" class="menu sub-menu-nav">
+		<a href="#" id="mine-icon"><span></span></a>
+		<a href="#" id="fav-icon"><span></span></a>
+		<a href="#" id="add-icon"><span></span></a>
+	</div>
+	
+	<div id="filter-sub-menu-nav" class="menu sub-menu-nav">
+		<a href="#" id="today-icon"><span>Šodien</span></a>
+		<a href="#" id="thisweek-icon"><span>Šonedēļ</span></a>
+		<a href="#" id="thismonth-icon"><span>Šomēnes</span></a>
+	</div>
+	
+	<div id="search-sub-menu-nav" class="menu sub-menu-nav">
+		<input id="search-field" type="name" name="name" placeholder="Meklēt...">
+		<button for="search-field" id="search_button" type="submit">&gt;</button>
+	</div>
+</div>
+
 
 <div id="ErikUznesManiKalna">
 	<a class="menu"></a>
@@ -44,18 +62,20 @@
 		<article class="one-event-small"><span>here goes event details</span></article>
 		<article class="one-event-small"><span>here goes event details</span></article>
 		<article class="one-event-small"><span>here goes event details</span></article>
+		<article class="one-event-small"><span>here goes event details</span></article>
 	</div>
 </section>
 
 <footer id="page-footer">
-	<a>footer</a>
+	<a href="#" id="lmt-icon"><span>lmt</span></a>
+	<a href="#" id="luz-icon"><span>luz</span></a>
+	<a href="#" id="about-icon"><span>about</span></a>
 </footer>
 
 </div>
 </div>
 </div>
 </body>
-
 
 
 </html>

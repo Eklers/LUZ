@@ -8,11 +8,15 @@ body{
 
 #page{
 	width:100%;
-	max-width:640px;
+/*	max-width:510px; /*6cm = 255prox*/
+/*	height:832px; /*11cm = 416prox*/
+	max-width:255px; /*6cm = 255prox*/
+	height:416px; /*11cm = 416prox*/
 	margin:0 auto;
 	position:relative;
 	overflow:hidden;
-	background:#1d2627
+	background:#1d2627;
+	border: 1px dashed green;
 }
 
 #left-menu {
@@ -45,10 +49,15 @@ body{
 
 #content-wrap , #content {
 	position: relative;
-	background: -webkit-linear-gradient(#C9DFF3, #87C5E8,#1692D1,#0073BB); /* For Safari */
-	background: -o-linear-gradient(#C9DFF3, #87C5E8,#1692D1,#0073BB); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#C9DFF3, #87C5E8,#1692D1,#0073BB); /* For Firefox 3.6 to 15 */
+	background: #efefef;
+	background-image: url('../img/back-noise.png');
+	
+	/*
+	background: -webkit-linear-gradient(#C9DFF3, #87C5E8,#1692D1,#0073BB); /* For Safari *//*
+	background: -o-linear-gradient(#C9DFF3, #87C5E8,#1692D1,#0073BB); /* For Opera 11.1 to 12.0 *//*
+	background: -moz-linear-gradient(#C9DFF3, #87C5E8,#1692D1,#0073BB); /* For Firefox 3.6 to 15 *//*
 	background: linear-gradient(#C9DFF3, #87C5E8,#1692D1,#0073BB); /* Standard syntax (must be last) */
+	
 	box-shadow: -2px -3px 5px #000;
 	z-index: 100;
 }
