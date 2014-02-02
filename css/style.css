@@ -33,6 +33,7 @@ font-family: 'Exo 2', sans-serif;
 	background: #333333;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
 	position:relative;
 	z-index: 20;
 	box-shadow: 0 1px 1px rgba(0,0,0,.05);
@@ -218,9 +219,59 @@ font-family: 'Exo 2', sans-serif;
 }
 
 .one-event-small{
-	height: 50px;
+	min-height: 50px;
+	max-height: 75px;
+	padding: 5px;
+	display: block;
 	border-bottom: 1px solid rgba(155,155,155, 0.7);
 	border-top: 1px solid rgba(255,255,255, 0.5);
+}
+
+.one-event-img-small{
+	height: 40px;
+	width: 40px;
+	border: 3px solid rgb(205, 205, 205);
+	border-radius: 3px;
+	float: left;
+	margin: auto 10px;
+}
+
+.one-event-img-small-category1{
+	border: 3px solid rgb(206, 17, 38);
+}
+
+.one-event-img-small-category2{
+	border: 3px solid rgb(247, 73, 2);
+}
+
+.one-event-img-small-category3{
+	border: 3px solid rgb(255, 204, 0);
+}
+
+.one-event-info-small{
+	float:left;
+	width: 175px;
+}
+
+.first-one-event-line-small{
+	margin: 0px;
+	clear: both;
+	font-weight: bold;
+	font-size: 75%;
+	text-transform:uppercase;
+}
+
+.second-one-event-line-small{
+	float: left;
+	font-size: 70%;
+	margin: 0px;
+	margin-right: 15px;
+}
+
+.third-one-event-line-small{
+	margin: 0px;
+	clear: both;
+	font-size: 70%;
 }
 
 /* FOOTER */
@@ -228,7 +279,9 @@ font-family: 'Exo 2', sans-serif;
 #page-footer {
 	height: 28px;
 	width: 100%;
-	border-top: 1px solid #e1e1e1;
+	border-top: 1px solid rgba(0,0,0,0.3);
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
 	background: #333333;
 	position: relative;
 	z-index: 100;
